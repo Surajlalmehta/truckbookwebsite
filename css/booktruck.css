@@ -1,0 +1,73 @@
+/* Truck Booking Page Styles */
+
+.booking {
+	background-color:#B2A4FF;
+	padding: 5% 15%;
+	text-align: center;
+}
+
+.booking h1 {
+	font-size: 32px;
+	margin-bottom: 50px;
+}
+
+form {
+	justify-content: center;
+	align-items: center;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form select {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 18px;
+	flex-basis: 45%;
+	width: 400px;
+}
+
+form select {
+	flex-basis: 100%;
+	max-width: 100%;
+}
+
+form input[type="submit"] {
+	background-color: #3399cc;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+	background-color: #2352e0;
+}
+
+@media (max-width: 768px) {
+	form input[type="text"],
+	form input[type="date"],
+	form select {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+}
+
+.footer-content{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }

@@ -1,0 +1,127 @@
+
+  /* Hero Section Styles */
+  
+  .hero {
+   
+    background-color:#08D9D6;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .hero-content a {
+    display: inline-block;
+    background-color: #FF2E63;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-content a:hover {
+    background-color:green;
+  }
+  
+  /* Services Section Styles */
+  
+  .featured-services {
+   padding: 5%;
+    text-align: center;
+    background-color:#08D9D6;
+  }
+  
+  .service-card {  
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .service-card img {
+    width: 100%;
+  }
+  
+  .service-card h3 {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  .service-card p {
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #666;
+  }
+  
+  .service-card a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .service-card a:hover {
+    background-color: #e67e22;
+  }
+
+ 
+
+
+  .about-section{
+    padding: 5% 7%;
+    /* background-color: #EAEAEA; */
+    text-align: center;
+  }
+
+  .about-section h2{
+    margin-bottom: 50px;
+  }
+  .about-section p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .footer-content{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }

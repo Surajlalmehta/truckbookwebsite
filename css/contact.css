@@ -1,0 +1,58 @@
+
+.contact {
+    padding: 5% 15%;
+    background-color: #B2A4FF;
+	
+}
+
+.contact h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.contact form {
+	flex-basis: 60%;
+	margin-right: 20px;
+}
+
+.contact label {
+	display: block;
+	color: #333;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.contact textarea {
+	height: 150px;
+	resize: none;
+}
+
+.contact button[type="submit"] {
+	background-color: #3399cc
+}
+
+.contact-info{
+    padding: 7% 3%;
+    background-color: #FFB4B4;
+    margin-top: 50px;
+    border-radius: 15px;
+
+}
+.footer-content{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }

@@ -1,0 +1,20 @@
+
+.tracking {
+    padding: 7% 15%;
+    background-color: #B2A4FF ;
+
+	text-align: center;
+}
+#track_CourierBooking {
+    text-align:center;
+    max-width:500px;
+    margin:auto;
+
+}
+
+.footer-content{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }

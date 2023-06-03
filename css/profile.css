@@ -1,0 +1,77 @@
+
+.profile {
+    padding: 5% 15%;
+	text-align: center;
+    background-color: #B2A4FF;
+}
+
+.profile h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.profile-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+    background-color: #FFB4B4;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.profile-info img {
+	width: 150px;
+	height: 150px;
+	margin-right: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.user-details h2 {
+	font-size: 24px;
+	margin-bottom:20px;
+}
+.user-details p {
+	font-size: 18px;
+
+}
+
+.orders{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.footer-content{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+ #order-details {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#order-details td, #custoorder-detailsmers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#order-details tr:nth-child(even){background-color: #f2f2f2;}
+
+#order-details tr:hover {background-color: #ddd;}
+
+#order-details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
